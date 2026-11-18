@@ -7,7 +7,7 @@ Servicio web de **control de stock** empaquetado con Docker, desarrollado como E
 | **Alumno** | Alan Emanuel Arraygada |
 | **Fecha** | 18 de noviembre de 2026 |
 | **Materia** | Software |
-| **Repositorio** | `parcial2-v2-software` |
+| **Repositorio** | `parcial2-v2-Ing-software` |
 
 ## Descripción
 
