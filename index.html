@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Control de Stock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>📦 Control de Stock</h1>
+    <p>Bienvenido/a. Administrá los productos de tu inventario de forma simple.</p>
+  </header>
+
+  <main>
+    <section class="card" id="alta">
+      <h2>Agregar producto</h2>
+      <form id="form-producto">
+        <input type="text" id="nombre" placeholder="Nombre del producto" required>
+        <input type="number" id="cantidad" placeholder="Cantidad" min="0" required>
+        <button type="submit">Agregar</button>
+      </form>
+    </section>
+
+    <section class="card" id="listado">
+      <h2>Listado de productos</h2>
+      <table>
+        <thead>
+          <tr><th>Producto</th><th>Cantidad</th><th>Acciones</th></tr>
+        </thead>
+        <tbody id="tabla-productos"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>Parcial 2 – Software · Servido con Nginx en Docker</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
