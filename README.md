@@ -4,7 +4,7 @@ Servicio web de **control de stock** empaquetado con Docker, desarrollado como E
 
 | Dato | Detalle |
 |------|---------|
-| **Alumno** | _Nombre y Apellido del alumno_ |
+| **Alumno** | Alan Emanuel Arraygada |
 | **Fecha** | 18 de noviembre de 2026 |
 | **Materia** | Software |
 | **Repositorio** | `parcial2-v2-software` |
@@ -36,7 +36,7 @@ parcial2-v2-software/
 1. Clonar el repositorio:
 
    ```bash
-   git clone https://github.com/<usuario>/parcial2-v2-software.git
+   git clone https://github.com/Alanemanuel16/parcial2-v2-software.git
    cd parcial2-v2-software
    ```
 
