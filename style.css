@@ -57,4 +57,18 @@ table { width: 100%; border-collapse: collapse; }
 th, td { text-align: left; padding: .6rem; border-bottom: 1px solid #e5e7eb; }
 th { background: #f9fafb; }
 
+/* Sección de resumen de stock */
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: .75rem; }
+.stat {
+  background: #eff6ff;
+  border-radius: 8px;
+  padding: .9rem;
+  text-align: center;
+}
+.stat span { display: block; font-size: 1.8rem; font-weight: 700; color: #1e40af; }
+.stat small { color: #4b5563; }
+.stat-alerta { background: #fef2f2; }
+.stat-alerta span { color: #dc2626; }
+tr.bajo td { background: #fff7ed; color: #9a3412; font-weight: 600; }
+
 footer { text-align: center; padding: 1.5rem; color: #6b7280; font-size: .9rem; }
